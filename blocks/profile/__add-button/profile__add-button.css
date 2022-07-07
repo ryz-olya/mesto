@@ -6,4 +6,8 @@
     background-position: center;
     padding: 0;
     border: 2px solid #FFFFFF;
+    align-self: center;
+    position: absolute;
+    right: 0;
+
 }
