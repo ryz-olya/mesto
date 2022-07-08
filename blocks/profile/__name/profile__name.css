@@ -7,3 +7,12 @@
 
 
 }
+@media screen and (max-width: 688px){
+    .profile__name{
+        max-width: 189px;
+        font-size: 27px;
+        line-height: 32.68px;
+    } 
+
+
+ }

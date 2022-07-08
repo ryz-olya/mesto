@@ -5,3 +5,11 @@
     position: relative;
     margin: 36.25px 0 47.25px;
 }
+@media screen and (max-width: 688px){
+    .profile{
+        flex-direction: column;
+        
+    } 
+
+
+ }
