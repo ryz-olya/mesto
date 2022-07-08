@@ -1,4 +1,7 @@
 .element__container{
     background-color: white;
     max-width: 282px;
+    margin: 0;
+    box-sizing: border-box;
+
 }
