@@ -6,3 +6,10 @@
     margin-right: 30px;
     
 }
+@media screen and (max-width: 688px){
+    .profile__photo{
+     align-self: center;
+    } 
+
+
+ }
