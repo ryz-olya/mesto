@@ -8,3 +8,11 @@
     margin: 0;
     
 }
+@media screen and (max-width: 568px){
+    .elements__list{
+        display: flex;
+        flex-direction: column;
+    } 
+
+
+ }
