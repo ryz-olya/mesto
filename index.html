@@ -20,7 +20,7 @@
             <div class="profile__info">
                 <div class="profile__inner-box">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <button class="profile__edit-button"></button>
+                    <button class="profile__edit-button profile__open-popup" type="button"></button>
                 </div>
                 <p class="profile__description">Исследователь океана</p>
 
@@ -60,32 +60,40 @@
                         <h3 class="element__title">Карачаевск</h3>
                         <img class="element__like-button" src="images/Vector like.svg">
                     </div>
-                    <li class="element">
-                        <img class="element__image" src="./images/kirill-pershin-1404681-unsplash  (2).png">
-                        <div class="element__container">
-                            <h3 class="element__title">Домбай</h3>
-                            <img class="element__like-button" src="images/Vector like.svg">
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img class="element__image" src="./images/kirill-pershin-1404681-unsplash  (3).png">
-                        <div class="element__container">
-                            <h3 class="element__title">Карачаево-Черкессия</h3>
-                            <img class="element__like-button" src="images/Vector like.svg">
-                        </div>
+                <li class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1404681-unsplash  (2).png">
+                    <div class="element__container">
+                        <h3 class="element__title">Домбай</h3>
+                        <img class="element__like-button" src="images/Vector like.svg">
+                    </div>
+                </li>
+                <li class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1404681-unsplash  (3).png">
+                    <div class="element__container">
+                        <h3 class="element__title">Карачаево-Черкессия</h3>
+                        <img class="element__like-button" src="images/Vector like.svg">
+                    </div>
         </section>
-
-
-
+       
 
     </main>
     <footer class="footer page__footer">
-        <p class="footer__copyright">© 2020 Mesto Russia</p> 
-        
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+
 
     </footer>
+    <section class="popup popup-profile">
+        <div class="popup__container">
+            <button class="popup__close-button" type="button"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
 
 
+        </section>
+
+    </div>
+
+
+<script src="./scripts/index.js"></script>
 </body>
 
 </html>
