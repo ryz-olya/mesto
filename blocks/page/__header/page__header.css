@@ -1,6 +1,13 @@
 .page__header {
     margin: 0 200px;
 }
+@media screen and (max-width: 940px){
+    .page__header{
+        margin: 0 50px;
+    } 
+
+
+ }
 @media screen and (max-width: 568px){
     .page__header{
         margin: 0;
