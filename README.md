@@ -4,6 +4,6 @@
 
 * grid layout
 * flex
-* резиновая верстка
+* адаптивная верстка
 
-
+https://ryz-olya.github.io/mesto/index.html
