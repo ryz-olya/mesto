@@ -9,6 +9,7 @@
     align-self: center;
     position: absolute;
     right: 0;
+    cursor: pointer;
 
 }
 .profile__add-button:hover{
