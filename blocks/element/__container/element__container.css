@@ -6,8 +6,6 @@
     display: flex;
     padding: 25px 20px 31px 21px;
     justify-content: space-between;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+
 
 }
