@@ -6,7 +6,7 @@
     margin-right: 30px;
     
 }
-@media screen and (max-width: 688px){
+@media screen and (max-width: 751px){
     .profile__photo{
      align-self: center;
      margin: 0 auto 22.25px;

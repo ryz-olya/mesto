@@ -1,4 +1,4 @@
-.elements__list{
+.elements__list {
     list-style: none;
     padding: 0;
     display: grid;
@@ -6,13 +6,30 @@
     row-gap: 20px;
     column-gap: 17px;
     margin: 0;
-    
+
+
 }
-@media screen and (max-width: 568px){
-    .elements__list{
+
+@media screen and (max-width: 886px) {
+    .elements__list {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        
+
+
+    }
+
+
+}
+
+
+
+ @media screen and (max-width: 677px) {
+    .elements__list {
         display: flex;
         flex-direction: column;
-    } 
+        align-items: center;
+    }
 
 
- }
+} 
