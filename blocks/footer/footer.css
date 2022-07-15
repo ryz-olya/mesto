@@ -1,15 +1,16 @@
 .footer {
     font-family: 'Inter', Arial, sans-serif;
-    
-    
+    padding-top: 67px;
    
 
 }
-@media screen and (max-width: 568px){
+
+
+ @media screen and (max-width: 568px){
     .footer{
-        width: 282px;
-        height: 16px;
+        padding-top: 48px;
+        
     } 
 
 
- }
+ }  

@@ -10,10 +10,11 @@
 @media screen and (max-width: 568px) {
     .footer__copyright {
         font-size: 14px;
-        line-height: 16.94;
+        line-height: 17px;
+    
     }
 
 
 
 
-}
+} 
