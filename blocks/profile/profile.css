@@ -3,12 +3,12 @@
     font-family: 'Inter', Arial, sans-serif;
     max-width: 880px;
     position: relative;
-    margin: 36.25px 0 47.25px;
+    margin: 36.25px auto 47.25px;
 }
 @media screen and (max-width: 768px){
     .profile{
         flex-direction: column;
-        margin: 38px 0 36px;
+        margin: 38px auto 36px;
         
     } 
 
