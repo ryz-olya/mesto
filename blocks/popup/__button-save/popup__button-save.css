@@ -5,8 +5,24 @@
     margin-top: 15px;
     cursor: pointer;
     border: none;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .popup__button-save:hover {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 568px){
+    .popup__button-save{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+
+
+    
+
+
+ }
